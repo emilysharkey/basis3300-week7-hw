@@ -5,14 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Page 2</title>
-    <link rel="stylesheet" href"./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 <body>
-    <h1> Survey Page 2 </h1>
-    <button onclick="window.location.href='./thank-you.html';">
-        Submit survey
-    </button>
-    </p>
-    <p> page 2 of 2 </p>
+    <h1> About Your Lifestyle </h1>
+    <form>
+        <fieldset>
+            <legend> Lifestyle Information</legend>
+        
+
+    <label for="study-hours">How many hours per week do you spend studying outside of class?</label>
+    <input type="text" id="study-hours" name="study-hours">
+  
+    <br><br>
+  
+    <label for="work-hours">How many hours per week do you spend working (part-time or full-time)?</label>
+    <input type="text" id="work-hours" name="work-hours">
+  
+    <br><br>
+  
+    <label for="extracurricular-hours">How many hours per week do you spend participating in extracurricular activities (sports, clubs, etc.)?</label>
+    <input type="text" id="extracurricular-hours" name="extracurricular-hours">
+  
+    <br><br>
+  
+    <label for="sleep-schedule">What is your typical sleep schedule during the week?</label>
+    <input type="text" id="sleep-schedule" name="sleep-schedule">
+  
+    <br><br>
+  
+    <label for="exercise">Do you engage in regular exercise?</label>
+    <input type="checkbox" id="exercise" name="exercise" value="Yes">
+    <label for="exercise">Yes</label>
+    <input type="checkbox" id="no-exercise" name="exercise" value="No">
+    <label for="no-exercise">No</label>
+  
+    <br><br>
+  
+    <label for="alcohol">Do you consume alcohol?</label>
+    <input type="checkbox" id="alcohol" name="alcohol" value="Yes">
+    <label for="alcohol">Yes</label>
+    <input type="checkbox" id="no-alcohol" name="alcohol" value="No">
+    <label for="no-alcohol">No</label>
+  
+    <br><br>
+  
+    <label for="tobacco">Do you smoke cigarettes or use any other tobacco products?</label>
+    <input type="checkbox" id="tobacco" name="tobacco" value="Yes">
+    <label for="tobacco">Yes</label>
+    <input type="checkbox" id="no-tobacco" name="tobacco" value="No">
+    <label for="no-tobacco">No</label>
+  
+    <br><br>
+  
+
+       
+        <label for="academic_major">What is your current academic major?</label><br>
+<select id="academic_major" name="academic_major">
+
+<option value="undeclared">Undeclared</option>
+<option value="Bussiness Analytics and Information Systems">Business Analytics and Information Systems</option>
+<option value="Marketing">Marketing</option>
+<option value="Finance">Finance</option>
+<option value="Management">Management</option>
+<option value="Accounting">Accounting</option>
+<option value="other">Other</option>
+</select>
+
+
+</fieldset>
+</form>
+<button onclick="window.location.href='./thank-you.html';">
+    Next Page
+</button>
+
+<p> page 2 of 2 </p>
 </body>
 </html>

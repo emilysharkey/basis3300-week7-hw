@@ -5,14 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Page 1</title>
-    <link rel="stylesheet" href"./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
 <body>
-    <h1> Survey Page 1 </h1>
+    <h1> About You </h1>
+
+    <form>
+        <fieldset>
+            <legend> Personal Information</legend>
+            <label for="first_name">First Name:</label>
+<input type="text" id="first_name" name="first_name" required><br>
+
+<label for="last_name">Last Name:</label>
+<input type="text" id="last_name" name="last_name" required><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required><br>
+
+<label id="gender">Gender:</label><br>
+<input type="radio" id="male" name="gender" value="male" required>
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female" required>
+<label for="female">Female</label><br>
+<input type="radio" id="non_binary" name="gender" value="non_binary" required>
+<label for="non_binary">Non-binary</label><br>
+
+<label for="ethnicity">Ethnicity:</label>
+<input type="text" id="ethnicity" name="ethnicity" required><br>
+
+<label for="phone_number">Phone Number:</label>
+<input type="tel" id="phone_number" name="phone_number" required><br>
+
+<label for="address">Address:</label>
+<input type="text" id="address" name="address" required><br>
+
+<label for="city">City:</label>
+<input type="text" id="city" name="city" required><br>
+
+<label for="state">State:</label>
+<input type="text" id="state" name="state" required><br>
+
+<label for="zip_code">Zip Code:</label>
+<input type="text" id="zip_code" name="zip_code" required><br>
+
+</fieldset>
+</form>
+
+
     <button onclick="window.location.href='./survey-2.html';">
         Next Page
     </button>
-    </p>
+
     <p> page 1 of 2 </p>
 </body>
 </html>
